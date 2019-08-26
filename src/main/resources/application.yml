@@ -7,7 +7,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: env
+        include: env,heapdump,liquibase,loggers,prometheus,threaddump,info,metrics,health
 ---
 spring:
   profiles: dev
